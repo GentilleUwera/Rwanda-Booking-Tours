@@ -1,0 +1,15 @@
+.aboutus-div{
+    height: 100vh;
+    width: 850px;
+background-color: rgb(173, 179, 202) ;
+margin-left: 300px;
+margin-top: 80px;
+padding: 40px;
+}
+.aboutus-div h1{
+    text-align: center;
+}
+.aboutus-div p{
+    color: rgb(22, 28, 49) ;
+    padding: 30px;
+}
