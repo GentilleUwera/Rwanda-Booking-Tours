@@ -9,11 +9,14 @@ import SignUp from "../views/signup";
 import Final from "../views/final";
 import Submit from "../views/submit";
 import NewTour from "../views/dashboard/NewTour";
+import DashLayout from "../components/dashboardLayout";
+import AllTours from "../views/dashboard/allTours";
 import {Routes, Route} from "react-router-dom";
 
 
 const Index=()=>{
   return ( 
+    <>
      <Routes>
         <Route element={<Home/>} path="/home"> </Route>
         <Route element={<AboutUs/>} path="/aboutus"> </Route>
@@ -24,9 +27,19 @@ const Index=()=>{
         <Route element={<SignUp/>} path="/signup"> </Route>
         <Route element={<Final/>} path="/final"> </Route>
         <Route element={<Submit/>} path="/submit"> </Route>
-        <Route element={<NewTour/>} path="/NewTour">  </Route>
         
+       
+       
     </Routes> 
+    <DashLayout>
+        <Routes>
+
+        <Route path="/dash/newtour" element={<NewTour/>} />
+        <Route element={<NewTour/>} path="/NewTour">  </Route>
+        <Route element={<AllTours/>} path="/allTours"> </Route>
+        </Routes>
+        </DashLayout>
+    </>
     )
 };
 export default Index;

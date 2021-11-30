@@ -8,7 +8,7 @@ const NewTour =()=>{
       console.log(values);
     }
     return(
-        <DashLayout>
+        
            
            <Form onFinish={onFinish}>
                
@@ -43,7 +43,7 @@ const NewTour =()=>{
 
            </Form>
 
-            </DashLayout>
+            
         
     )
 }

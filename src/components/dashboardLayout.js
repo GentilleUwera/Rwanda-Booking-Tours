@@ -29,10 +29,10 @@ const DashboardLayout =({children})=>{
               Create Tour
             </Menu.Item>
             <Menu.Item key="2" icon={<VideoCameraOutlined />}>
-             Accounts
+             Manage All Tours
             </Menu.Item>
             <Menu.Item key="3" icon={<UploadOutlined />}>
-             Feedback
+             Log Out
             </Menu.Item>
           </Menu>
         </Sider>
