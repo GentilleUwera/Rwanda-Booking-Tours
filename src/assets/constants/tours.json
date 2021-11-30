@@ -1,0 +1,77 @@
+[
+    {
+        "title": " Nyungwe Park",
+        "description": "One of the oldest rainforests in Africa, Nyungwe is rich in biodiversity and spectacularly beautiful. The mountainous region is teaming with wildlife, including a small population of chimpanzees as well as 12 other species of primate, including the L’Hoest’s monkey endemic to the Albertine Rift.",
+        "seats": 50,
+        "available": 20,
+        "images": [
+            "https://images.pexels.com/photos/1624497/pexels-photo-1624497.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940"
+        ],
+        "dateScheduled": "10 August 2010",
+        "dueDate": "15 August 2010",
+        "phone": "+250 788 788 788",
+        "price": 300,
+        "user": {
+            "name": "John Smith",
+            "phone": "+250 783 873 827"
+        },
+        "tripDescription": "One of the oldest rainforests in Africa, Nyungwe is rich in biodiversity and spectacularly beautiful. The mountainous region is teaming with wildlife, including a small population of chimpanzees as well as 12 other species of primate, including the L’Hoest’s monkey endemic to the Albertine Rift."
+    },
+    {
+        "title": " Muhazi Lac",
+        "description": "This lake is easily accessible from the three main routes of Rwanda including; Gatuna road which passes in the western side of the lake, Kyonza road that runs parallel to the lake side in the south and lastly is the kagitumba road which runs to the lake side at about 3.8 kilometers.",
+        "seats": 50,
+        "available": 20,
+        "images": [
+            "https://images.pexels.com/photos/9712938/pexels-photo-9712938.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
+            "https://images.pexels.com/photos/9712938/pexels-photo-9712938.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940"
+        ],
+        "dateScheduled": "10 August 2010",
+        "dueDate": "15 August 2010",
+        "phone": "+250 788 788 788",
+        "price": 300,
+        "user": {
+            "name": "John Smith",
+            "phone": "+250 783 873 827"
+        },
+        "tripDescription": "This lake is easily accessible from the three main routes of Rwanda including; Gatuna road which passes in the western side of the lake, Kyonza road that runs parallel to the lake side in the south and lastly is the kagitumba road which runs to the lake side at about 3.8 kilometers."
+    },
+    {
+        "title": " Gako Forest",
+        "description": "Gako Forest has a history of deforestation extending over the past 50 years, in part because of ill-advised large-scale cattle ranching schemes, inefficient small-plot farming, free-grazing of cattle, and establishment of plantations of non-native trees.",
+        "seats": 80,
+        "available": 30,
+        "images": [
+            "https://images.pexels.com/photos/338936/pexels-photo-338936.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
+            ""
+        ],
+        "dateScheduled": "10 August 2010",
+        "dueDate": "15 August 2010",
+        "phone": "+250 788 788 788",
+        "price": 300,
+        "user": {
+            "name": "John Smith",
+            "phone": "+250 783 873 827"
+        },
+        "tripDescription": "Gako Forest has a history of deforestation extending over the past 50 years, in part because of ill-advised large-scale cattle ranching schemes, inefficient small-plot farming, free-grazing of cattle, and establishment of plantations of non-native trees."
+    },
+    {
+        "title": " Akagera National Park",
+        "description": "Akgera National Park is Central Africa's largest protected wetland and the last remaining refuge for savannah-adapted species in Rwanda. Akagera National Park, Rwanda, is almost unrecognisable today compared to over 20 years ago when it was on the verge of being lost forever.",
+        "seats": 40,
+        "available": 20,
+        "images": [
+            "https://images.pexels.com/photos/631317/pexels-photo-631317.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
+            "https://images.pexels.com/photos/631317/pexels-photo-631317.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940"
+        ],
+        "dateScheduled": "10 August 2010",
+        "dueDate": "15 August 2010",
+        "phone": "+250 788 788 788",
+        "price": 300,
+        "user": {
+            "name": "John Smith",
+            "phone": "+250 783 873 827"
+        },
+        "tripDescription": "Akgera National Park is Central Africa's largest protected wetland and the last remaining refuge for savannah-adapted species in Rwanda. Akagera National Park, Rwanda, is almost unrecognisable today compared to over 20 years ago when it was on the verge of being lost forever."
+    }
+]

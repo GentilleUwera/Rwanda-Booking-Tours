@@ -1,0 +1,25 @@
+.signin-container{
+    height: 80vh;
+    width: 800px;
+    background-color: cadetblue;
+    color: black;
+    margin-top: 50px;
+    padding: 50px;
+    margin-left: 320px;
+    
+    
+}
+.signin-container h1{
+    text-align: center;
+    font-size: 50px;
+}
+.signin-container label{
+    margin-left: 150px ;
+    font-size: 30px;
+}
+.signin-container button{
+    height: 7vh;
+    width: 150px;
+    border-radius: 3px solid black;
+    margin-left: 280px;
+}

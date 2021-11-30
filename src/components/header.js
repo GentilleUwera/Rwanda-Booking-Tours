@@ -8,12 +8,13 @@ const Header =()=>{
         {/* <h1>header</h1> */}
         <img src={logo} width="5%"/>
         <div className="navbar-right">
-            <a href="/">Sign Up</a> 
-            <a href="/">Sign In</a>
-            <a href="/contacts">Contacts</a>
-            <a href="/aboutus">About Us</a>
-            <a href="/home">Home</a>
-
+        <a href="/home">Home</a>
+        <a href="/aboutus">About Us</a>
+        <a href="/contacts">Contacts</a>
+        <a href="/signIn">Sign In</a>
+        <a href="/signUp">Sign Up</a> 
+        <a href="/tours">Tours</a> 
+    
         </div>
         
         </div>
