@@ -3,6 +3,8 @@ import "./dashboardLayout.css";
 import ReactDOM from 'react-dom';
 import 'antd/dist/antd.css';
 import { Layout, Menu } from 'antd';
+import { Link } from "react-router-dom";
+
 import {
   MenuUnfoldOutlined,
   MenuFoldOutlined,
@@ -29,10 +31,11 @@ const DashboardLayout =({children})=>{
               Create Tour
             </Menu.Item>
             <Menu.Item key="2" icon={<VideoCameraOutlined />}>
-             Manage All Tours
+            <Link to="/allTours">  Manage All Tours </Link>
             </Menu.Item>
-            <Menu.Item key="3" icon={<UploadOutlined />}>
-             Log Out
+            <Menu.Item key="3" icon={<UploadOutlined />}
+                onClick={() => localStorage.removeItem("UserLoggedIn")}>
+            <Link to="/home"> Log Out </Link>
             </Menu.Item>
           </Menu>
         </Sider>

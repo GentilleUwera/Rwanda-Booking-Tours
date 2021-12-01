@@ -1,8 +1,12 @@
 import React from "react";
 import "./signin.css";
 import Homelayout from "../components/homeLayout";
+import { useNavigate } from "react-router";
 
 const SignIn=()=>{ 
+
+    const navigate= useNavigate();
+     
     return(
 
     <Homelayout>
@@ -16,7 +20,14 @@ const SignIn=()=>{
         <label for="input">Enter password:   </label>
         <input type="password"/>
           <br/> <br/> <br/> <br/>
-        <a href="./tours"> <button>Log In</button> </a>
+         <button onClick={()=>{
+
+            localStorage.setItem("UserLoggedIn",true);
+            // navigate.pushState("/dash/newtour");
+            navigate("/NewTour");
+
+        }} 
+        >Log In</button> 
 
         </div>
     </Homelayout>

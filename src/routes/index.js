@@ -1,4 +1,6 @@
-import React from "react";
+import React,{useEffect} from "react";
+import {Routes, Route} from "react-router-dom";
+
 import Home from "../views/home";
 import AboutUs from "../views/aboutus";
 import Contacts from "../views/contacts";
@@ -11,7 +13,9 @@ import Submit from "../views/submit";
 import NewTour from "../views/dashboard/NewTour";
 import DashLayout from "../components/dashboardLayout";
 import AllTours from "../views/dashboard/allTours";
-import {Routes, Route} from "react-router-dom";
+
+const isUserLoggedIn=localStorage.getItem("UserLoggedIn");
+
 
 
 const Index=()=>{
@@ -28,17 +32,22 @@ const Index=()=>{
         <Route element={<Final/>} path="/final"> </Route>
         <Route element={<Submit/>} path="/submit"> </Route>
         
-       
-       
     </Routes> 
-    <DashLayout>
+    {
+       isUserLoggedIn ? ( 
+       <DashLayout>
         <Routes>
 
-        <Route path="/dash/newtour" element={<NewTour/>} />
+        {/* <Route path="/dash/newtour" element={<NewTour/>} /> */}
         <Route element={<NewTour/>} path="/NewTour">  </Route>
         <Route element={<AllTours/>} path="/allTours"> </Route>
         </Routes>
         </DashLayout>
+        ) : ( 
+          <></>
+        )
+       
+       }
     </>
     )
 };
