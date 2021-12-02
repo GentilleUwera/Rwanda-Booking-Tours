@@ -24,7 +24,7 @@ const SignIn=()=>{
 
             localStorage.setItem("UserLoggedIn",true);
             // navigate.pushState("/dash/newtour");
-            navigate("/NewTour");
+            navigate("/dash/NewTour");
 
         }} 
         >Log In</button> 
